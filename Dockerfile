@@ -1,8 +1,8 @@
 FROM nginx:1.11.10-alpine
 MAINTAINER Michael Lin <michaellin@ualberta.ca>
 
-ENV VERSION=v7.6.0 NPM_VERSION=4.1.2
-ENV YARN_VERSION 0.20.3
+ENV VERSION=v8.9.4 NPM_VERSION=5.6.0
+ENV YARN_VERSION 1.3.2
 
 ADD https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v${YARN_VERSION}.tar.gz /opt/yarn.tar.gz
 
